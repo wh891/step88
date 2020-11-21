@@ -94,6 +94,7 @@ if [ $pil = 6 ]
 then
 pkg update && pkg upgrade
 pkg install git
+pkg install php
 git clone https://github.com/IntiTutorial/KTP-KK
 cd KTP-KK
 fi
