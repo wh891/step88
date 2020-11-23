@@ -9,4 +9,6 @@ pkg install git
 
 pkg install python2
 
+pkg install php
+
 git clone https://github.com/wh891/step88
