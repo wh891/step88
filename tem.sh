@@ -33,6 +33,7 @@ echo $p"(*) $cy"3 $b"install virus Xz"
 echo $p"(*) $cy"4 $b"install virus Err0r-ICA"
 echo $p"(*) $cy"5 $b"install virus spesial"
 echo $p"(*) $cy"6 $b"install KK&KTP Palsu"
+echo $p"(*) $cy"7 $b"install vvip DDOS by aril"
 echo $p"(*) $cy"99 $b"exit"
 read -p ">『5ωཌaRiL』vvip꧂ : " pil;
 if [ $pil = 1 ]
@@ -99,6 +100,18 @@ git clone https://github.com/IntiTutorial/KTP-KK
 cd KTP-KK
 fi
 #hehdh
+if [ $pil = 7 ]
+then
+pkg update && pkg upgrade
+pkg install git
+pkg install php
+pkg install python
+pkg install python2
+git clone https://github.com/wh891/VVIPDDOS
+cd VVIPDDOS
+fi
+#hehdh
+#aksjdb
 if [ $pil = 99 ]
 then
 echo $r"SEMOGA BERUNTUNG YAH MENGGUNAKAN SCRIPT INI"
